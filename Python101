@@ -1,3 +1,26 @@
 ## Python 3.6.#
 ## This module will include examples of data types and operators
 ## Modulce includes variable assignments and type conversions
+
+# Printing a simple statement. Double quotes and single quotes yield same result in this case.
+print("Hello World!")
+print('Hello World!')
+
+#
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
