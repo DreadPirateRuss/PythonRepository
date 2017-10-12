@@ -10,16 +10,23 @@ Hello World!
 Hello World!
 
 # Doing simple operations. This includes manipulating strings and numbers and can happen without a 'print' statement.
-# Multiplication(*), Division(/), Addition(+), and Subtraction(-). Division equations produce a float number.
+# Multiplication(*), Division(//), Addition(+), and Subtraction(-).
 >>> 2*6
 12
->>> 12/2
-6.0
+>>> 12//2
+6
 >>> 7+5
 12
 >>> 9-5
 4
 
+# Division equations produce a float number if using one forward slash. This is because the the other equations will always 
+# yield an integer. but dividing an integer by another may not always produce an integer as shown in the these examples.
+>>> 11//3
+3
+>>> 11/3
+3.666666666666666
+   
 # Separate different steps in the equation with parentheses.
 >>> 2*6+5
 17
