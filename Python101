@@ -9,10 +9,20 @@ Hello World!
 >>> print('Hello World!')
 Hello World!
 
+# Separate different steps in the equation with parentheses.
+>>> 2*6+5
+17
+>>> 2*(6+5)
+22
+
 # Doing simple operations. This includes manipulating strings and numbers and can happen without a 'print' statement.
-# Multiplication(*), Division(//), Addition(+), and Subtraction(-).
+# Exponetioation(**), Multiplication(*), Division(/), Quotient(//), Addition(+), and Subtraction(-). 
+>>> 6**2
+36
 >>> 2*6
 12
+>>> 12/2
+6.0
 >>> 12//2
 6
 >>> 7+5
@@ -21,22 +31,25 @@ Hello World!
 4
 
 # Division equations produce a float number if using one forward slash. This is because the the other equations will always 
-# yield an integer. but dividing an integer by another may not always produce an integer as shown in the these examples.
+# yield an integer. However, dividing an integer by another may not always produce an integer as shown in the these examples.
+# Floats are the numbers which are not integers. They are followed by a decimal with a number after.
+## Python will change an integer into a float, but this is the only type conversion it does on its own.
 >>> 11//3
 3
 >>> 11/3
 3.666666666666666
-   
-# Separate different steps in the equation with parentheses.
->>> 2*6+5
-17
->>> 2*(6+5)
-22
 
-# Floats are the numbers which are not integers. They are followed by a decimal with a number after.
-# Python will change an integer into a float, but this is the only type conversion it does on its own.
-# 
-#
+# Automatic type conversion from integer to a float.
+>>> 2+2
+4
+>>> 2+2.0
+4.0
+>>> 2+2.1
+4.1
+
+# More about strings. Stings have to be in a double or single quotations. For charactes that cannot be included in strings, a 
+# backslash is required.
+'The dog's toy' # this produces an error
 # 
 #
 # 
