@@ -47,9 +47,11 @@ Hello World!
 >>> 2+2.1
 4.1
 
-# More about strings. Stings have to be in a double or single quotations. For charactes that cannot be included in strings, a 
-# backslash is required.
-'The dog's toy' # this produces an error
+# More about strings. Strings have to be in a double or single quotations. 
+>>> "This is a string"
+
+# For charactes that cannot be included in strings, a backslash is required.
+# 'The dog's toy' # this produces a 'SyntaxError'
 # 
 #
 # 
