@@ -51,8 +51,11 @@ Hello World!
 >>> "This is a string"
 
 # For charactes that cannot be included in strings, a backslash is required.
-# 'The dog's toy' # this produces a 'SyntaxError'
-# 
+ # this produces a 'SyntaxError'
+>>> 'The dog's toy'
+# This does not produce a SyntaxError
+>>> 'The dog\'s toy'
+"The dog's toy"
 #
 # 
 #
