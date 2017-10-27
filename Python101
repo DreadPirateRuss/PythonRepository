@@ -48,16 +48,26 @@ Hello World!
 4.1
 
 # More about strings. Strings have to be in a double or single quotations. 
->>> "This is a string"
+>>> print("This is a string")
 
-# For charactes that cannot be included in strings, a backslash is required.
- # this produces a 'SyntaxError'
->>> 'The dog's toy'
+# For charactes that cannot be included in strings, a backslash is required.  The double quotes doesnt affect a single quote.
+# This produces a 'SyntaxError'.  
+>>> print('The dog's toy')
+
 # This does not produce a SyntaxError
->>> 'The dog\'s toy'
-"The dog's toy"
-#
-# 
+>>> print('The dog\'s toy')
+The dog's toy
+
+# Backslash also allows the moving of a string to a new line.
+>>> print("Where is the toy? \nOver there!!")
+Where is the toy? 
+Over there!!
+
+# The triple quotes also allows a Enter key stroke to move to a new line without a backslash
+>>> print("""Where is the toy?
+Over there!!""")
+Where is the toy?
+Over there!!
 #
 # 
 #
@@ -68,3 +78,4 @@ Hello World!
 # 
 # Statement of assumptions.This is where I will state things that I assume a person already knows.
 # 1 - You cannot divide by zero(0). In Python it will create a 'ZeroDivisionError'
+# 2 - How to save, comment, or manipulate a '.py' file
