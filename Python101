@@ -68,7 +68,11 @@ Over there!!
 Over there!!""")
 Where is the toy?
 Over there!!
-#
+
+# The goal of a program is to make life easier or entertain us. This means we need inputs, which allow programs to be interactive.
+>>> input("Where us the toy? ")
+Where is the toy? Over there!
+'Over there!'
 # 
 #
 # 
