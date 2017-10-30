@@ -78,4 +78,4 @@ Over there!!
 # 
 # Statement of assumptions.This is where I will state things that I assume a person already knows.
 # 1 - You cannot divide by zero(0). In Python it will create a 'ZeroDivisionError'
-# 2 - How to save, comment, or manipulate a '.py' file
+# 2 - How to assign variables and that there are different data types.
