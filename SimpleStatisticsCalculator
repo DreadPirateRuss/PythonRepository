@@ -1,1 +1,11 @@
 # This is a simple calculator for statistics.
+import math
+
+
+
+
+
+def factorial():
+    num = int(input("Input a number:"))
+    ans = math.factorial(num)
+    print(ans)
