@@ -16,7 +16,7 @@ Hello World!
 22
 
 # Doing simple operations. This includes manipulating strings and numbers and can happen without a 'print' statement.
-# Exponetioation(**), Multiplication(*), Division(/), Quotient(//), Addition(+), and Subtraction(-). 
+# Exponetioation(**), Multiplication(*), Division(/), Remainder(%), Quotient(//), Addition(+), and Subtraction(-). 
 >>> 6**2
 36
 >>> 2*6
@@ -29,6 +29,8 @@ Hello World!
 12
 >>> 9-5
 4
+>>> 9%2
+1
 
 # Division equations produce a float number if using one forward slash. This is because the the other equations will always 
 # yield an integer. However, dividing an integer by another may not always produce an integer as shown in the these examples.
@@ -57,6 +59,8 @@ Hello World!
 # This does not produce a SyntaxError
 >>> print('The dog\'s toy')
 The dog's toy
+>>> print("The dogs's toy")
+The dogs's toy
 
 # Backslash also allows the moving of a string to a new line.
 >>> print("Where is the toy? \nOver there!!")
@@ -70,16 +74,23 @@ Where is the toy?
 Over there!!
 
 # The goal of a program is to make life easier or entertain us. This means we need inputs, which allow programs to be interactive.
->>> input("Where us the toy? ")
+>>> input("Where is the toy? ")
 Where is the toy? Over there!
 'Over there!'
-# 
-#
-# 
-#
-# 
-#
-# 
-# Statement of assumptions.This is where I will state things that I assume a person already knows.
+
+# Manipulating variables is important in Python, as with any language, especially when creating loops and object oriented programming.
+# x += n is the same as x = x + n. This saves space, should be faster, and easier to write. This works with numbers and strings.
+>>> x = 3
+>>> print(x)
+3
+>>> x -= 1
+>>> print(x)
+2
+>>> x += 4
+>>> print(x)
+6
+
+# Statement of assumptionsi.e. things people should already know.
 # 1 - You cannot divide by zero(0). In Python it will create a 'ZeroDivisionError'
 # 2 - How to assign variables and that there are different data types.
+# 3 - How to use an editor or compiler.
