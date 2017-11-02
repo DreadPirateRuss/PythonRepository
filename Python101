@@ -90,6 +90,28 @@ Where is the toy? Over there!
 >>> print(x)
 6
 
+# Booleans are a data type that yield a true/false value or compare different values. 
+# This is where Comparison(==), Not equal(!=), Greater than(>) or equal to(>=), and Less than(<) or equal to(<=) come into usage.
+# This works with numbers or strings.
+>>> 6 == 6
+True
+>>> 6 == 7
+False
+>>> 6 >= 7
+False
+>>> 6 <= 7
+True
+>>> "hello" == "hello"
+True
+>>> "HELLO" == "HELLO"
+True
+>>> "HELLO" == "hello"
+False
+>>> 6 != 6
+False
+>>> 6 != 7
+True
+
 # Statement of assumptionsi.e. things people should already know.
 # 1 - You cannot divide by zero(0). In Python it will create a 'ZeroDivisionError'
 # 2 - How to assign variables and that there are different data types.
