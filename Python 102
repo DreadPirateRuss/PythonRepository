@@ -1,6 +1,6 @@
 # This section will focus on statements, loops, and ranges. 
 # After learning the basic data types, the next steps focus on working and manipulating the different data types.
-#
+# If statements are great. They let us evaluate whether statements are true. When used with loops it allows even more powerful operations.
 IF
 
 ELSE
