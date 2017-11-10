@@ -21,6 +21,7 @@ Ending program.
 >>> 
 
 # An else statement follows and if statement. This allows additional conditions to be applied.
+
 # if/else statement
 x = 6
 if x < 5:
@@ -70,6 +71,7 @@ x is greater than 5
 # A while loop is different as the number of iterations does not need to be known, can be more flexible, and can contain
 # more complicated functions. This makes a while loop more flexible and general.
 # A for loop is better when the number of iterations are known, loops applied to a range, and is more secure when handling variables.
+# Knowing the number of iterations is the key in deciding which loop to use.
 
 # simple while loop
 i = 1
