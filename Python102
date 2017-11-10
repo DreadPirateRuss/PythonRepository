@@ -1,0 +1,74 @@
+# This section will focus on statements, loops, and ranges. 
+# After learning the basic data types, the next steps focus on working and manipulating the different data types.
+# If statements are great. They let us evaluate whether statements are true. When used with loops it allows even more powerful operations.
+# If statements can be simple or complex. They can also be nested creating more analytical statements.
+# simple if statement
+if 10 > 5:
+    print("Number greater than 5")
+print("Ending program.")
+
+# if statement output
+Number greater than 5
+Ending program.
+>>> 
+
+# adjusted if statement
+if 4 > 5:
+    print("Number greater than 5")
+print("Ending program.")
+# adjusted if statement output
+Ending program.
+>>> 
+
+# An else statement follows and if statement. This allows additional conditions to be applied.
+# if/else statement
+x = 6
+if x < 5:
+    print("x is less than 5")
+else:
+    print("x is greater than 5")
+    
+# if/else statement output
+x is greater than 5
+>>> 
+
+# else statements can include if statements to add more possibilities.
+# multiple if/else statements
+x = 6
+if x < 5:
+    print("x is less than 5")
+else:
+    if x > 5:
+        print("x is greater than 5")
+    else:
+        if x == 5:
+            print("x is equal to 5")
+        else:
+            print("x is not a number")
+
+# multiple if/else statements output
+x is greater than 5
+>>> 
+
+# for the sake of simplicity, there is a condensed version of the if/else statement, elif.
+x = 6
+if x < 5:
+    print("x is less than 5")
+elif x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is not a number")
+
+# elif statement output
+x is greater than 5
+>>> 
+
+while loops
+
+for loops
+
+lists
+
+ranges
