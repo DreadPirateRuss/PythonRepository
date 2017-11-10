@@ -65,7 +65,23 @@ else:
 x is greater than 5
 >>> 
 
-while loops
+# Conditional statements such as if, else, and elif allow us to manipulate data. Loops do as well and there is a difference between them.
+# A for and while loop do the same thing, loop through a function until completion.
+# A while loop is different as the number of iterations does not need to be known, can be more flexible, and can contain
+# more complicated functions. This makes a while loop more flexible and general.
+# A for loop is better when the number of iterations are known, loops applied to a range, and is more secure when handling variables.
+
+# simple while loop
+i = 1
+while i <= 5:
+    print(i, end=', ')
+    i = i + 1
+print("finished")
+
+# simple while loop output
+1, 2, 3, 4, 5, finished
+>>> 
+
 
 for loops
 
