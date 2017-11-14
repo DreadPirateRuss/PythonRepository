@@ -66,9 +66,9 @@ else:
 x is greater than 5
 >>> 
 
-Lists
+# Lists
 
-Ranges
+# Ranges
 
 
 # Conditional statements such as if, else, and elif allow us to manipulate data. Loops do as well and there is a difference between them.
