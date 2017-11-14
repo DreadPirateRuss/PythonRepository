@@ -66,27 +66,68 @@ else:
 x is greater than 5
 >>> 
 
+Lists
+
+Ranges
+
+
 # Conditional statements such as if, else, and elif allow us to manipulate data. Loops do as well and there is a difference between them.
-# A for and while loop do the same thing, loop through a function until completion.
-# A while loop is different as the number of iterations does not need to be known, can be more flexible, and can contain
+# A 'for' and 'while' loop do the same thing, loop through a function until completion.
+# A 'while' loop is different as the number of iterations does not need to be known, can be more flexible, and can contain
 # more complicated functions. This makes a while loop more flexible and general.
-# A for loop is better when the number of iterations are known, loops applied to a range, and is more secure when handling variables.
+# A 'for' loop is better when the number of iterations are known, loop is applied to a range, and is more secure when handling variables.
 # Knowing the number of iterations is the key in deciding which loop to use.
 
-# simple while loop
+# simple 'while' loop
 i = 1
 while i <= 5:
-    print(i, end=', ')
+    print(i)
     i = i + 1
 print("finished")
 
-# simple while loop output
-1, 2, 3, 4, 5, finished
+
+# simple 'while' loop output
+1
+2
+3
+4
+5
+finished
 >>> 
 
+# a simple 'for' loop
+words = ["Keep","It","Simple","Stupid"]
+for word in words:
+    print(word + "!")
 
-for loops
+# simple 'for' loop output
+Keep!
+It!
+Simple!
+Stupid!
+>>> 
 
-lists
+# Both loops run though and print their respective outputs. I will include a 'while' loop for the last example to show how knowing
+# the number of iterations is key in the loop.
 
-ranges
+# simple 'while' loop using a list
+# variables
+words = ["Keep","It","Simple","Stupid"]
+y = 0
+x = len(words)-1
+
+while y <= x:
+    word = words[y]
+    print(word + "!")
+    y = y + 1
+
+# simple 'while' loop using a list output
+Keep!
+It!
+Simple!
+Stupid!
+>>> 
+
+# As we see, using a 'while' loop is much more clunky when working with a 'list'. A counter variable (variables x and y) has 
+# to be included so there is something for the 'while' loop to count against. 
+# (This is a rough description, but the concept is the important part)
