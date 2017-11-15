@@ -66,7 +66,9 @@ else:
 x is greater than 5
 >>> 
 
-# Lists
+# Lists are just like they sound, an indexed list of items. 'Lists' are created using the square brackets '[]'. 
+# Specific parts in a list are accesed using the item's index within the list i.e. index [2] is item 2.
+
 
 # Ranges
 
