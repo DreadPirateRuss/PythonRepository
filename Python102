@@ -71,14 +71,16 @@ x is greater than 5
 # Specific parts in a 'list' are accesed using the item's index within the list i.e. index [2] is item 2.
 # Avoid indexing without a 'list'
 
-# A simple 'list' example
+# Teo simple 'list' examples
 words = ["Keep","It","Simple","Stupid"]
+print(words)
 print(words[0])
 print(words[1])
 print(words[2])
 print(words[3])
 
 # A simple 'list' example output
+['Keep', 'It', 'Simple', 'Stupid']
 Keep
 It
 Simple
