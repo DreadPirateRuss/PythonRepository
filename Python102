@@ -66,11 +66,32 @@ else:
 x is greater than 5
 >>> 
 
-# Lists are just like they sound, an indexed list of items. 'Lists' are created using the square brackets '[]'. 
-# Specific parts in a list are accesed using the item's index within the list i.e. index [2] is item 2.
+# 'Lists' are just like they sound, an indexed list of items. 'Lists' are created using the square brackets '[]'. 
+# 'Lists' can be created empty, and data put into it later. 'lists' can also include another list (nested list).
+# Specific parts in a 'list' are accesed using the item's index within the list i.e. index [2] is item 2.
+# Avoid indexing without a 'list'
 
+# A simple 'list' example
+words = ["Keep","It","Simple","Stupid"]
+print(words[0])
+print(words[1])
+print(words[2])
+print(words[3])
+
+# A simple 'list' example output
+Keep
+It
+Simple
+Stupid
+>>> 
 
 # Ranges
+
+
+
+
+
+
 
 
 # Conditional statements such as if, else, and elif allow us to manipulate data. Loops do as well and there is a difference between them.
