@@ -71,7 +71,7 @@ x is greater than 5
 # Specific parts in a 'list' are accesed using the item's index within the list i.e. index [2] is item 2.
 # Avoid indexing without a 'list'
 
-# Teo simple 'list' examples
+# Two simple 'list' examples
 words = ["Keep","It","Simple","Stupid"]
 print(words)
 print(words[0])
@@ -86,6 +86,12 @@ It
 Simple
 Stupid
 >>> 
+
+# It is also possible to call a 'list' inside a 'list'
+
+
+
+
 
 # Ranges
 
