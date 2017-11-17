@@ -87,9 +87,38 @@ Simple
 Stupid
 >>> 
 
-# It is also possible to call a 'list' inside a 'list'
+# It is also possible to call a 'list' inside a 'list' a.k.a. nested 'list'
+# A simple nested 'list'
+words = ["Keep","It","Simple",["Or","At","Least","Try"],"Stupid"]
+print(words[0])
+print(words[1])
+print(words[2])
+print(words[4])
+print(words[3][0])
+print(words[3][1])
+print(words[3][2])
+print(words[3][3])
+>>> 
 
+# A simple nested 'list' output
+Keep
+It
+Simple
+Stupid
+Or
+At
+Least
+Try
+>>> 
 
+# for simplicity and reduction of text vertically, multiple arguments can be put into one statement. 
+# 'List' with multiple arguments in a single statement
+words = ["Keep","It","Simple",["Or","At","Least","Try"],"Stupid"]
+print(words[0],words[1],words[2],words[4])
+
+# 'List' with multiple arguments in a single text output
+Keep It Simple Stupid
+>>> 
 
 
 
