@@ -120,9 +120,7 @@ print(words[0],words[1],words[2],words[4])
 Keep It Simple Stupid
 >>> 
 
-
-
-# Ranges
+# 'Range' creates a sequential list of numbers. these
 
 
 
