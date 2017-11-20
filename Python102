@@ -120,7 +120,35 @@ print(words[0],words[1],words[2],words[4])
 Keep It Simple Stupid
 >>> 
 
-# 'Range' creates a sequential list of numbers. these
+# 'Range' creates a sequential list of numbers. These can be in any interval and between any two numbers. The numbers must be integers.
+# A 'range' creates a range object that has to be converted to a list if it is to be used.
+# A 'range' only creates an object from the first argument up to the second argument.
+# A 'range' must be assigned to a list. If it is not, the print function will only print the data about the range.
+
+
+# This shows how a 'range' creates from the first up to the second argument (but not including)
+
+# A simple 'range' of numbers
+num = list(range(1,20))
+print(num)
+# A simple 'range' of numbers output
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> 
+
+# A 'range' of numbers
+num = range(1,20)
+print(num)
+# Output of a 'range' of numbers
+range(1, 20)
+>>> 
+
+# If the 'range' is assigned to a list, the numbers become clearer
+num = list(range(1,20,2))
+print(num)
+# Output
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+>>> 
+
 
 
 
