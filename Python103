@@ -1,2 +1,11 @@
 # Working with functions. This will deal with working with functions. 
 # Constructing arguements, working with lists, ranges, and getting data in and out of functions
+
+# A simple 'function'
+def func():
+    print("You just called a function!")
+    
+# A simple 'function' output
+>>> func()
+You just called a function!
+>>> 
