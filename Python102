@@ -124,10 +124,10 @@ Keep It Simple Stupid
 # A 'range' creates a range object that has to be converted to a list if it is to be used.
 # A 'range' only creates an object from the first argument up to the second argument.
 # A 'range' must be assigned to a list. If it is not, the print function will only print the data about the range.
-
+# The first two arguements in a 'range' dictate where the 'range' begins and ends. The third dictates the interval of 
+# the 'range' numbers and must be an integer.
 
 # This shows how a 'range' creates from the first up to the second argument (but not including)
-
 # A simple 'range' of numbers
 num = list(range(1,20))
 print(num)
@@ -148,14 +148,6 @@ print(num)
 # Output
 [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 >>> 
-
-
-
-
-
-
-
-
 
 # Conditional statements such as if, else, and elif allow us to manipulate data. Loops do as well and there is a difference between them.
 # A 'for' and 'while' loop do the same thing, loop through a function until completion.
