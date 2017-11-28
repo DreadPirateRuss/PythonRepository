@@ -163,7 +163,6 @@ while i <= 5:
     i = i + 1
 print("finished")
 
-
 # simple 'while' loop output
 1
 2
