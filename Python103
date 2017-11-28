@@ -1,5 +1,6 @@
 # Working with functions. This will deal with working with functions. 
 # Constructing arguements, working with lists, ranges, and getting data in and out of functions
+# The 'def' before a function defines it, which if not done giver a NameError.
 
 # A simple 'function'
 def func():
@@ -8,4 +9,23 @@ def func():
 # A simple 'function' output
 >>> func()
 You just called a function!
+>>> 
+
+# The next step is seeing how arguments are added to 'functions'. In this 'function', "word" has been added as an argument and 
+# will be called when using the 'function'. It is important to remember that like all strings, the arguments must be in quotes.
+
+# A simple 'function' with one argument
+def WordFunc(word):
+    print(word + "!")
+
+WordFunc("Keep")
+WordFunc("It")
+WordFunc("Simple")
+WordFunc("Stupid")
+
+# A simple 'function' with one argument output
+Keep!
+It!
+Simple!
+Stupid!
 >>> 
