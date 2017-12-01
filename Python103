@@ -29,3 +29,14 @@ It!
 Simple!
 Stupid!
 >>> 
+
+# 'Functions' allow multiple arguments to be included.
+# A simple 'function' with multiple arguments. It will simply add 2 numbers together.
+def MultiFunc(x,y):
+    ans = x + y
+    print(ans)
+
+# A simple 'function' with multiple arguments output.
+>>> MultiFunc(5,4)
+9
+>>>
