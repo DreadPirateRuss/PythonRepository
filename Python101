@@ -1,7 +1,21 @@
 ## Python 3.6.#
 ## Online Compiler: https://repl.it/languages/python3
 ## This module will include examples of data types and operators
-## Modulce includes variable assignments and type conversions
+## Module also includes commenting, variable assignments and type conversions
+
+# Comments are an important part of any coding lanuage. The octothorpe(#), or hash tag(#), is how comments are added.
+# Comments are great because they allow description of what a piece of code is doing. Comments are used in all modules 
+# to describe and explain what is happening in the code. Keep It Simple Stupid is the best piece of advice for writing
+# comments. Not every variable needs a comments, just a decriptive variable. However no comment at all is bad as it makes
+# code harder to understand. Use comments often and keep them simple!!
+
+# Docstrings(Document Strings) are similar to comments, except that they can be multiline and are created using three quote marks
+# at the beginning and end. They are useful when a block of code needs a more descriptive explanation.
+
+"""
+Below are lots of example of code.There are comments above each one.
+The '>>>' represents the output that a person would see in the standard python editor from python.org
+"""
 
 # Printing a simple statement. Double quotes and single quotes yield same result in this case.
 >>> print("Hello World!")
