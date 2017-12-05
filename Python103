@@ -40,3 +40,6 @@ def MultiFunc(x,y):
 >>> MultiFunc(5,4)
 9
 >>>
+
+# It is important to remember that functions that contain variables, can only call those variables when using the function. 
+# The 'function' variables cannot be called outside of the function.
