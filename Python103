@@ -41,5 +41,5 @@ def MultiFunc(x,y):
 9
 >>>
 
-# It is important to remember that functions that contain variables, can only call those variables when using the function. 
+# It is important to remember that 'functions' that contain variables, can only call those variables when using the function. 
 # The 'function' variables cannot be called outside of the function.
