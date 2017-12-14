@@ -45,4 +45,6 @@ def MultiFunc(x,y):
 # The 'function' variables cannot be called outside of the function.
 
 # The next thing is that functions can be 'objects', just like 'lists'. 'Objects' are the core to object oriented programming (OOP).
-# 
+# Here's the rub though, 'functions' can be 'objects', but as we will learn later, 'methods' runs on 'objects' and 'functions' 
+# run on 'variables'. This means that 'methods' run on 'objects', which are 'functions', which are 'varaibles'. Thus methods' run on
+# variables' (not really, but the concept is much more than that).
