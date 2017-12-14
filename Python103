@@ -43,3 +43,6 @@ def MultiFunc(x,y):
 
 # It is important to remember that 'functions' that contain variables, can only call those variables when using the function. 
 # The 'function' variables cannot be called outside of the function.
+
+# The next thing is that functions can be 'objects', just like 'lists'. 'Objects' are the core to object oriented programming (OOP).
+# 
